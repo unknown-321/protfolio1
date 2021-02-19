@@ -10,7 +10,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>About</title>
 </head>
 <body>
@@ -46,27 +47,48 @@
         </div>
     </div>
 </nav>
-<div class="col d-flex justify-content-center ">
-<div class="row my-5">
+<div class="container">
+<div class="text-center darken-grey-text my-4" style="font-family:courier">
+    <h1 class="animated rollIn"><i><strong> My Projects </strong> </i> </h1>
 
-<div class="card mx-5" style="width: 18rem;">
-  <img src="https://source.unsplash.com/1600x900/?developer
-" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
 </div>
 
-<div class="card" style="width: 18rem;">
-  <img src="https://source.unsplash.com/1600x900/?nature,water
-" class="card-img-top" alt="...">
+</div>
+
+<div class="col d-flex justify-content-center">
+<div class="row my-1">
+
+<div class="card mx-5" style="width: 18rem;">
+  <img src="{% static 'img/port.jpg' %} " class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h5 class="card-title  text-center"><p class="text-center" style="font-family:courier;"><i><strong>My PortFolio Website </strong></i><br>15/02/21-17/02/21</p></h5>
+      <p class="text-center"> The one which you are visiting right now .<br> <strong><i>Exposure include</i>    Hosting,Django,HTLML,CSS, Bootstrap,Sqlite.</strong></p>
+    <div class="col text-center">
+      <a href="https://github.com/unknown-321/protfolio1" class="btn btn-primary text-center ">Github Link</a>
   </div>
+</div>
+</div>
+</div>
+
+<div class="card mx-5" style="width: 18rem;">
+  <img src="{% static 'img/ssb.jpg' %} "class="card-img-top" alt="...">
+ <div class="card-body">
+      <h5 class="card-title  text-center"><p class="text-center" style="font-family:courier;"><i><strong>A Website For Defence Aspirants</strong></i><br> Sept/2020-Dec/2020</p></h5>
+      <p class="text-center"> A platform where aspirants can connect and practise For SSB.<br> <strong><i>Exposure include</i> git, Github,Django,HTLML,CSS, Bootstrap,Sqlite.</strong></p>
+    <div class="col text-center">
+      <a href="https://github.com/unknown-321/ssb4all" class="btn btn-primary text-center ">Github Link</a>
+  </div>
+</div>
+</div>
+    <div class="card mx-5" style="width: 18rem;">
+  <img src="{% static 'img/text.jpg' %} "  class="card-img-top" alt="...">
+  <div class="card-body">
+      <h5 class="card-title  text-center"><p class="text-center" style="font-family:courier;"><i><strong>My first Project.</strong></i><br> Aug /2020-Sept/2020</p></h5>
+      <p class="text-center">A Simple text utility tool performing certain operations.<br> <strong><i>Exposure include</i>  Github,Django,HTLML,CSS, Bootstrap.</strong></p>
+    <div class="col text-center">
+      <a href="https://github.com/unknown-321/textutils" class="btn btn-primary text-center ">Github Link</a>
+  </div>
+</div>
 </div>
 
 
